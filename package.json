@@ -1,0 +1,28 @@
+{
+  "name": "erasure-twitter-bot",
+  "version": "1.0.0",
+  "description": "twitter bot for tweeting about erasure events happen",
+  "main": "src/index.js",
+  "repository": "https://github.com/propulsor/erasure-twitter-bot.git",
+  "author": "propulsor <propulsor.ichimoku@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-client": "^2.6.8",
+    "apollo-link-ws": "^1.0.19",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "subscriptions-transport-ws": "^0.9.16",
+    "twitter": "^1.7.1",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "scripts": {
+    "start":"node src"
+  }
+
+}
